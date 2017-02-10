@@ -1,0 +1,11 @@
+path,writer,handwritten,cursive,contains images,contains tables,languages,contains math,contains corrections
+morc-data/morc-1-1.jpg,thoma,1,0,1,0,de,1,1
+morc-data/morc-2-1.jpg,thoma,1,0,1,0,en,0,0
+morc-data/morc-3-1.jpg,unknown,0,0,0,1,de,0,0
+morc-data/morc-4-1.jpg,unknown,0,0,0,1,de,0,0
+morc-data/morc-5-1.jpg,thoma,1,0,0,1,de,0,1
+morc-data/morc-5-1.jpg,thoma,1,0,0,1,de,0,1
+morc-data/morc-5-2.jpg,thoma,1,0,0,1,de,0,1
+morc-data/morc-5-3.jpg,thoma,0,0,0,1,de,0,0
+morc-data/morc-6-1.jpg,thoma,2,0,0,1,de,0,0
+morc-data/morc-6-2.jpg,thoma,2,0,0,1,de,0,0
