@@ -14,3 +14,13 @@ training / benchmarking OCR systems.
     * languages: ISO 639-1 code (en for English, de for German, ...)
       If more than one language is used, separate them with `::` (e.g.: "de::en")
     * contains math: 0 for False, 1 for True
+
+
+## Challenges
+
+1. *Rotation Challenge*: Find the rotation of document. The error is the mean
+   euclidean distance $1/|examples| \sum_{(doc, true-rot) \in examples} (p(doc) - true-rot)^2$
+2. *Document Segmentation Challenge*: Find regions (background, text, image,
+   table) of correctly rotated image. The error is the mean pixel-wise accuracy.
+3. Distinguish "math text" from "language text"
+4. *Line Segmentation Challenge*: Recognize lines in "language text"
